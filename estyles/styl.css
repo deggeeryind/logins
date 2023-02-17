@@ -19,12 +19,13 @@ form{
     display: flex;
     flex-direction: column;
     align-content: center;
-    background-image: url("../imagine/197249183-fantasy-alien-planet-mountain-and-lake-3d-illustration.webp");
+    background-color: black;
+    /* background-image: url("../imagine/197249183-fantasy-alien-planet-mountain-and-lake-3d-illustration.webp"); */
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 5%;
     width: 40vw;
-    height: 30vw;
+    height: 35vw;
     margin: auto;
 }
 
@@ -38,16 +39,18 @@ form h2{
 }
 
 form p{
-    color: black;
+    color: aliceblue;
     text-align: center;
     font-size: 1.5vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 1vw;
+    
 }
 
 .form-control{
     margin-left: 10vw;
-    /* width: 50%;
-    height: 10%; */
+    /* width: 60%;
+    height: -40%; */
     background: none;
     color: aliceblue;
     font-size: 2vw;
@@ -55,17 +58,18 @@ form p{
     border: none;
     outline: none;
     cursor: pointer;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid aliceblue;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .label{
+    margin: 1vw;
     font-size: 2vw;
-    padding: 2vw;
+    padding: 1vw;
     color:  aliceblue;
     cursor: pointer;
     position: absolute;
-    left:500px;
+    left:520px;
     transform: translateY(10px);
     transition: transform .5s, color .3s;
 }
@@ -74,7 +78,7 @@ form p{
 .form-control:not(:placeholder-shown) + .label{
     transform: translateY(-12px) scale(.7);
     transform-origin: left top;
-    color: black;
+    color: turquoise;
     font-size: 2vw;
 }
 
@@ -107,4 +111,5 @@ a:hover{
     color: #0088B2;
     text-decoration: underline;
 }
+
 
